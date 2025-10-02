@@ -1,0 +1,8 @@
+[client]
+# Desativa o websocket, forçando o Streamlit a usar requisições mais tradicionais.
+# Isso pode ajudar a passar por firewalls restritivos.
+showSidebarNavigation = false
+
+[server]
+enableCORS = true
+enableXsrfProtection = true
